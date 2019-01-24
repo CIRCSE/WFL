@@ -8,6 +8,8 @@ To cite all versions of WFL, you can adapt the following:
 
 DOIs for the individual releases of WFL are available here: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1492326.svg)](https://doi.org/10.5281/zenodo.1492326)
 
-For Documentation see Word Formation Latin (WFL) Documentation.pdf
+For Documentation download Word Formation Latin (WFL) Documentation.pdf
+
+For a List of ITTB wordforms analysed by WFL integrated Lemlat in xml format download formario_ITTB_17-10-2017_tagged.xml
 
 
