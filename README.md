@@ -13,3 +13,5 @@ For Documentation download `Word Formation Latin (WFL) Documentation.pdf`.
 For a list of input-output relations between lemmas based on word formation rules, please refer to table lemmas_wfr from lemlat_db. A description of this table can be found in the WFL Wiki.
 
 For a List of ITTB wordforms analysed by WFL integrated Lemlat in xml format download `formario_ITTB_17-10-2017_tagged.xml`.
+
+WFL is also available in the ILC4CLARIN repository of CLARIN-IT: http://hdl.handle.net/20.500.11752/OPEN-531
