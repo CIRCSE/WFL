@@ -14,4 +14,4 @@ For a list of input-output relations between lemmas based on word formation rule
 
 For a List of ITTB wordforms analysed by WFL integrated Lemlat in xml format download `formario_ITTB_17-10-2017_tagged.xml`.
 
-WFL is also available in the ILC4CLARIN repository of CLARIN-IT: http://hdl.handle.net/20.500.11752/OPEN-531
+WFL is also available in the ILC4CLARIN repository of CLARIN-IT: [http://hdl.handle.net/20.500.11752/OPEN-531](http://hdl.handle.net/20.500.11752/OPEN-531).
