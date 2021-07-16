@@ -17,9 +17,8 @@
      xmlns:vartrans="http://www.w3.org/ns/lemon/vartrans#">
     <owl:Ontology rdf:about="http://lila-erc.eu/ontologies/lila/wfl/">
         <owl:versionIRI rdf:resource="http://lila-erc.eu/ontologies/lila/wfl/0.2"/>
-        <owl:imports rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo"/>
         <rdfs:comment>Ontology of the WFL Resource</rdfs:comment>
-        <owl:versionInfo>0.2: draft of the ontology created</owl:versionInfo>
+        <owl:versionInfo>0.2: draft of the ontology created.</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -122,8 +121,9 @@
     <!-- http://lila-erc.eu/ontologies/lila/wfl/Backformation -->
 
     <owl:Class rdf:about="http://lila-erc.eu/ontologies/lila/wfl/Backformation">
-        <owl:equivalentClass rdf:resource="http://lila-erc.eu/ontologies/lila/wfl/Conversion"/>
         <rdfs:subClassOf rdf:resource="http://lila-erc.eu/ontologies/lila/wfl/DerivationalRule"/>
+        <rdfs:comment xml:lang="en">Phenomenon whereby a new word is created because it is analogically reconstructed as the base of an already existing word, that, however, has actually been formed by a different process.
+Example: &quot;consueo&quot;, back-formed from &quot;consuesco&quot;, that is actually formed by prefixation of con- to &quot;suesco&quot;.</rdfs:comment>
         <rdfs:label>Backformation</rdfs:label>
     </owl:Class>
     
@@ -134,6 +134,7 @@
     <owl:Class rdf:about="http://lila-erc.eu/ontologies/lila/wfl/CompoundingRule">
         <rdfs:subClassOf rdf:resource="http://lila-erc.eu/ontologies/lila/wfl/WFLRule"/>
         <owl:disjointWith rdf:resource="http://lila-erc.eu/ontologies/lila/wfl/DerivationalRule"/>
+        <rdfs:comment xml:lang="en">Formation of a new word from two (or more) already existing words.</rdfs:comment>
         <rdfs:label>Compounding word-formation rule</rdfs:label>
     </owl:Class>
     
@@ -143,7 +144,7 @@
 
     <owl:Class rdf:about="http://lila-erc.eu/ontologies/lila/wfl/Conversion">
         <rdfs:subClassOf rdf:resource="http://lila-erc.eu/ontologies/lila/wfl/DerivationalRule"/>
-        <rdfs:comment>Conversion: derivation that does NOT involve Affixes.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Formation of a new word from another one without the addition of any affix.</rdfs:comment>
         <rdfs:label>Conversion</rdfs:label>
     </owl:Class>
     
@@ -176,6 +177,7 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://lila-erc.eu/ontologies/lila/wfl/DerivationalRule"/>
+        <rdfs:comment xml:lang="en">Formation of a new word by adding a prefix to an existing word.</rdfs:comment>
         <rdfs:label>Prefixation</rdfs:label>
     </owl:Class>
     
@@ -191,6 +193,7 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://lila-erc.eu/ontologies/lila/wfl/DerivationalRule"/>
+        <rdfs:comment xml:lang="en">Formation of a new word by adding a suffix to an existing word.</rdfs:comment>
         <rdfs:label>Suffixation</rdfs:label>
     </owl:Class>
     
@@ -6828,15 +6831,57 @@
     
 
 
+    <!-- http://www.lexinfo.net/ontology/2.0/lexinfo#AdpositionPOS -->
+
+    <owl:Class rdf:about="http://www.lexinfo.net/ontology/2.0/lexinfo#AdpositionPOS"/>
+    
+
+
+    <!-- http://www.lexinfo.net/ontology/2.0/lexinfo#AdverbPOS -->
+
+    <owl:Class rdf:about="http://www.lexinfo.net/ontology/2.0/lexinfo#AdverbPOS"/>
+    
+
+
+    <!-- http://www.lexinfo.net/ontology/2.0/lexinfo#ConjunctionPOS -->
+
+    <owl:Class rdf:about="http://www.lexinfo.net/ontology/2.0/lexinfo#ConjunctionPOS"/>
+    
+
+
+    <!-- http://www.lexinfo.net/ontology/2.0/lexinfo#DeterminerPOS -->
+
+    <owl:Class rdf:about="http://www.lexinfo.net/ontology/2.0/lexinfo#DeterminerPOS"/>
+    
+
+
     <!-- http://www.lexinfo.net/ontology/2.0/lexinfo#NounPOS -->
 
     <owl:Class rdf:about="http://www.lexinfo.net/ontology/2.0/lexinfo#NounPOS"/>
     
 
 
+    <!-- http://www.lexinfo.net/ontology/2.0/lexinfo#NumeralPOS -->
+
+    <owl:Class rdf:about="http://www.lexinfo.net/ontology/2.0/lexinfo#NumeralPOS"/>
+    
+
+
     <!-- http://www.lexinfo.net/ontology/2.0/lexinfo#PartOfSpeech -->
 
     <owl:Class rdf:about="http://www.lexinfo.net/ontology/2.0/lexinfo#PartOfSpeech"/>
+    
+
+
+    <!-- http://www.lexinfo.net/ontology/2.0/lexinfo#ParticlePOS -->
+
+    <owl:Class rdf:about="http://www.lexinfo.net/ontology/2.0/lexinfo#ParticlePOS"/>
+    
+
+
+    <!-- http://www.lexinfo.net/ontology/2.0/lexinfo#PronounPOS -->
+
+    <owl:Class rdf:about="http://www.lexinfo.net/ontology/2.0/lexinfo#PronounPOS"/>
     
 
 
